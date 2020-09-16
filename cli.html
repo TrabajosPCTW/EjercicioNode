@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Node</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/75a89b70cd.js" crossorigin="anonymous"></script>
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+        </script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar fixed-top navbar-dark bg-dark">
+            <a class="navbar-brand">Node Exercise - Santiago Carrero Gil</a>
+        </nav>
+    </header>
+    <section style="text-align: center; padding: 2em;">
+        <h1 style="padding-top: 1.8em; padding-bottom: 1em;">Listado de clientes</h1>
+        <table class="table table-striped" style="border: 3px solid black;">
+            <thead>
+                <tr>
+                    <th>ID clientes</th>
+                    <th>Nombre Compania</th>
+                    <th>Contacto</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>ALFKI</td><td>Alfreds Futterkiste</td><td>Maria Anders</td></tr><tr><td>ANATR</td><td>Ana Trujillo Emparedados y helados</td><td>Ana Trujillo</td></tr><tr><td>ANTON</td><td>Antonio Moreno Taquer</td><td>Antonio Moreno</td></tr><tr><td>AROUT</td><td>Around the Horn</td><td>Thomas Hardy</td></tr><tr><td>BERGS</td><td>Berglunds snabbk</td><td>Christina Berglund</td></tr><tr><td>BLAUS</td><td>Blauer See Delikatessen</td><td>Hanna Moos</td></tr><tr><td>BLONP</td><td>Blondel p</td><td>Fr</td></tr><tr><td>BOLID</td><td>B</td><td>Mart</td></tr><tr><td>BONAP</td><td>Bon app'</td><td>Laurence Lebihan</td></tr><tr><td>BOTTM</td><td>Bottom Dollar Markets</td><td>Elizabeth Lincoln</td></tr><tr><td>BSBEV</td><td>B's Beverages</td><td>Victoria Ashworth</td></tr><tr><td>CACTU</td><td>Cactus Comidas para llevar</td><td>Patricio Simpson</td></tr><tr><td>CENTC</td><td>Centro comercial Moctezuma</td><td>Francisco Chang</td></tr><tr><td>CHOPS</td><td>Chop suey Chinese</td><td>Yang Wang</td></tr><tr><td>COMMI</td><td>Com</td><td>Pedro Afonso</td></tr><tr><td>CONSH</td><td>Consolidated Holdings</td><td>Elizabeth Brown</td></tr><tr><td>DRACD</td><td>Drachenblut Delikatessen</td><td>Sven Ottlieb</td></tr><tr><td>DUMON</td><td>Du monde entier</td><td>Janine Labrune</td></tr><tr><td>EASTC</td><td>Eastern Connection</td><td>Ann Devon</td></tr><tr><td>ERNSH</td><td>Ernst Handel</td><td>Roland Mendel</td></tr><tr><td>FAMIA</td><td>Familia Arquibaldo</td><td>Aria Cruz</td></tr><tr><td>FISSA</td><td>FISSA Fabrica Inter. Salchichas S.A.</td><td>Diego Roel</td></tr><tr><td>FOLIG</td><td>Folies gourmandes</td><td>Martine Ranc</td></tr><tr><td>FOLKO</td><td>Folk och f</td><td>Maria Larsson</td></tr><tr><td>FRANK</td><td>Frankenversand</td><td>Peter Franken</td></tr><tr><td>FRANR</td><td>France restauration</td><td>Carine Schmitt</td></tr><tr><td>FRANS</td><td>Franchi S.p.A.</td><td>Paolo Accorti</td></tr><tr><td>FURIB</td><td>Furia Bacalhau e Frutos do Mar</td><td>Lino Rodriguez </td></tr><tr><td>GALED</td><td>Galer</td><td>Eduardo Saavedra</td></tr><tr><td>GODOS</td><td>Godos Cocina T</td><td>Jos</td></tr><tr><td>GOURL</td><td>Gourmet Lanchonetes</td><td>Andr</td></tr><tr><td>GREAL</td><td>Great Lakes Food Market</td><td>Howard Snyder</td></tr><tr><td>GROSR</td><td>GROSELLA Restaurante</td><td>Manuel Pereira</td></tr><tr><td>HANAR</td><td>Hanari Carnes</td><td>Mario Pontes</td></tr><tr><td>HILAA</td><td>HILARI</td><td>Carlos Hern</td></tr><tr><td>HUNGC</td><td>Hungry Coyote Import Store</td><td>Yoshi Latimer</td></tr><tr><td>HUNGO</td><td>Hungry Owl All Night Grocers</td><td>Patricia McKenna</td></tr><tr><td>ISLAT</td><td>Island Trading</td><td>Helen Bennett</td></tr><tr><td>KOENE</td><td>K</td><td>Philip Cramer</td></tr><tr><td>LACOR</td><td>La corne d'abondance</td><td>Daniel Tonini</td></tr><tr><td>LAMAI</td><td>La maison d'Asie</td><td>Annette Roulet</td></tr><tr><td>LAUGB</td><td>Laughing Bacchus Wine Cellars</td><td>Yoshi Tannamuri</td></tr><tr><td>LAZYK</td><td>Lazy K Kountry Store</td><td>John Steel</td></tr><tr><td>LEHMS</td><td>Lehmanns Marktstand</td><td>Renate Messner</td></tr><tr><td>LETSS</td><td>Let's Stop N Shop</td><td>Jaime Yorres</td></tr><tr><td>LILAS</td><td>LILA Supermercado</td><td>Carlos Gonz</td></tr><tr><td>LINOD</td><td>LINO Delicateses</td><td>Felipe Izquierdo</td></tr><tr><td>LONEP</td><td>Lonesome Pine Restaurant</td><td>Fran Wilson</td></tr><tr><td>MAGAA</td><td>Magazzini Alimentari Riuniti</td><td>Giovanni Rovelli</td></tr><tr><td>MAISD</td><td>Maison Dewey</td><td>Catherine Dewey</td></tr><tr><td>MEREP</td><td>M</td><td>Jean Fresni</td></tr><tr><td>MORGK</td><td>Morgenstern Gesundkost</td><td>Alexander Feuer</td></tr><tr><td>NORTS</td><td>North/South</td><td>Simon Crowther</td></tr><tr><td>OCEAN</td><td>Oc</td><td>Yvonne Moncada</td></tr><tr><td>OLDWO</td><td>Old World Delicatessen</td><td>Rene Phillips</td></tr><tr><td>OTTIK</td><td>Ottilies K</td><td>Henriette Pfalzheim</td></tr><tr><td>PARIS</td><td>Paris sp</td><td>Marie Bertrand</td></tr><tr><td>PERIC</td><td>Pericles Comidas cl</td><td>Guillermo Fern</td></tr><tr><td>PICCO</td><td>Piccolo und mehr</td><td>Georg Pipps</td></tr><tr><td>PRINI</td><td>Princesa Isabel Vinhos</td><td>Isabel de Castro</td></tr><tr><td>QUEDE</td><td>Que Del</td><td>Bernardo Batista</td></tr><tr><td>QUEEN</td><td>Queen Cozinha</td><td>L</td></tr><tr><td>QUICK</td><td>QUICK Stop</td><td>Horst Kloss</td></tr><tr><td>RANCH</td><td>Rancho grande</td><td>Sergio Guti</td></tr><tr><td>RATTC</td><td>Rattlesnake Canyon Grocery</td><td>Paula Wilson</td></tr><tr><td>REGGC</td><td>Reggiani Caseifici</td><td>Maurizio Moroni</td></tr><tr><td>RICAR</td><td>Ricardo Adocicados</td><td>Janete Limeira</td></tr><tr><td>RICSU</td><td>Richter Supermarkt</td><td>Michael Holz</td></tr><tr><td>ROMEY</td><td>Romero y tomillo</td><td>Alejandra Camino</td></tr><tr><td>SANTG</td><td>Sant</td><td>Jonas Bergulfsen</td></tr><tr><td>SAVEA</td><td>Save a lot Markets</td><td>Jose Pavarotti</td></tr><tr><td>SEVES</td><td>Seven Seas Imports</td><td>Hari Kumar</td></tr><tr><td>SIMOB</td><td>Simons bistro</td><td>Jytte Petersen</td></tr><tr><td>SPECD</td><td>Sp</td><td>Dominique Perrier</td></tr><tr><td>SPLIR</td><td>Split Rail Beer & Ale</td><td>Art Braunschweiger</td></tr><tr><td>SUPRD</td><td>Supr</td><td>Pascale Cartrain</td></tr><tr><td>THEBI</td><td>The Big Cheese</td><td>Liz Nixon</td></tr><tr><td>THECR</td><td>The Cracker Box</td><td>Liu Wong</td></tr><tr><td>TOMSP</td><td>Toms Spezialit</td><td>Karin Josephs</td></tr><tr><td>TORTU</td><td>Tortuga Restaurante</td><td>Miguel Angel Paolino</td></tr><tr><td>TRADH</td><td>Tradi</td><td>Anabela Domingues</td></tr><tr><td>TRAIH</td><td>Trail's Head Gourmet Provisioners</td><td>Helvetius Nagy</td></tr><tr><td>VAFFE</td><td>Vaffeljernet</td><td>Palle Ibsen</td></tr><tr><td>VICTE</td><td>Victuailles en stock</td><td>Mary Saveley</td></tr><tr><td>VINET</td><td>Vins et alcools Chevalier</td><td>Paul Henriot</td></tr><tr><td>WANDK</td><td>Die Wandernde Kuh</td><td>Rita M</td></tr><tr><td>WARTH</td><td>Wartian Herkku</td><td>Pirkko Koskitalo</td></tr><tr><td>WELLI</td><td>Wellington Importadora</td><td>Paula Parente</td></tr><tr><td>WHITC</td><td>White Clover Markets</td><td>Karl Jablonski</td></tr><tr><td>WILMK</td><td>Wilman Kala</td><td>Matti Karttunen</td></tr><tr><td>WOLZA</td><td>Wolski  Zajazd</td><td>Zbyszek Piestrzeniewicz</td></tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>
